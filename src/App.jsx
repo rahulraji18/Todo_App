@@ -10,7 +10,7 @@ const App = () => {
       <BrowserRouter>
           <Header />
         <Routes>
-          <Route path="/" Component={TodoApp} />
+          <Route path="/Todo_App" Component={TodoApp} />
           <Route path="/about" Component={About} />
         </Routes>
       </BrowserRouter>
