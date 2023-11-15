@@ -51,7 +51,9 @@ export default class TodoApp extends Component {
                   <i
                     className="fa-solid fa-trash"
                     onClick={() => this.deleteItem(index)}
-                  ></i>
+                  >
+                    Delete
+                  </i>
                 </li>
               );
             })}
